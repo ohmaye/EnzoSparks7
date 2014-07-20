@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F77A3D32197B84770000DAA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77A3D31197B84770000DAA1 /* AppDelegate.swift */; };
+		F77A3D34197B84770000DAA1 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F77A3D33197B84770000DAA1 /* GameScene.sks */; };
+		F77A3D36197B84770000DAA1 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77A3D35197B84770000DAA1 /* GameScene.swift */; };
+		F77A3D38197B84770000DAA1 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77A3D37197B84770000DAA1 /* GameViewController.swift */; };
+		F77A3D3B197B84770000DAA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F77A3D39197B84770000DAA1 /* Main.storyboard */; };
+		F77A3D3D197B84770000DAA1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F77A3D3C197B84770000DAA1 /* Images.xcassets */; };
+		F77A3D49197B84770000DAA1 /* EnzoSparks7Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77A3D48197B84770000DAA1 /* EnzoSparks7Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F77A3D43197B84770000DAA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F77A3D24197B84770000DAA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F77A3D2B197B84770000DAA1;
+			remoteInfo = EnzoSparks7;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F77A3D2C197B84770000DAA1 /* EnzoSparks7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnzoSparks7.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F77A3D30197B84770000DAA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F77A3D31197B84770000DAA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F77A3D33197B84770000DAA1 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		F77A3D35197B84770000DAA1 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		F77A3D37197B84770000DAA1 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		F77A3D3A197B84770000DAA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F77A3D3C197B84770000DAA1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F77A3D42197B84770000DAA1 /* EnzoSparks7Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnzoSparks7Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F77A3D47197B84770000DAA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F77A3D48197B84770000DAA1 /* EnzoSparks7Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnzoSparks7Tests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F77A3D29197B84770000DAA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77A3D3F197B84770000DAA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F77A3D23197B84770000DAA1 = {
+			isa = PBXGroup;
+			children = (
+				F77A3D2E197B84770000DAA1 /* EnzoSparks7 */,
+				F77A3D45197B84770000DAA1 /* EnzoSparks7Tests */,
+				F77A3D2D197B84770000DAA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F77A3D2D197B84770000DAA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F77A3D2C197B84770000DAA1 /* EnzoSparks7.app */,
+				F77A3D42197B84770000DAA1 /* EnzoSparks7Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F77A3D2E197B84770000DAA1 /* EnzoSparks7 */ = {
+			isa = PBXGroup;
+			children = (
+				F77A3D31197B84770000DAA1 /* AppDelegate.swift */,
+				F77A3D33197B84770000DAA1 /* GameScene.sks */,
+				F77A3D35197B84770000DAA1 /* GameScene.swift */,
+				F77A3D37197B84770000DAA1 /* GameViewController.swift */,
+				F77A3D39197B84770000DAA1 /* Main.storyboard */,
+				F77A3D3C197B84770000DAA1 /* Images.xcassets */,
+				F77A3D2F197B84770000DAA1 /* Supporting Files */,
+			);
+			path = EnzoSparks7;
+			sourceTree = "<group>";
+		};
+		F77A3D2F197B84770000DAA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F77A3D30197B84770000DAA1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F77A3D45197B84770000DAA1 /* EnzoSparks7Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F77A3D48197B84770000DAA1 /* EnzoSparks7Tests.swift */,
+				F77A3D46197B84770000DAA1 /* Supporting Files */,
+			);
+			path = EnzoSparks7Tests;
+			sourceTree = "<group>";
+		};
+		F77A3D46197B84770000DAA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F77A3D47197B84770000DAA1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F77A3D2B197B84770000DAA1 /* EnzoSparks7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F77A3D4C197B84770000DAA1 /* Build configuration list for PBXNativeTarget "EnzoSparks7" */;
+			buildPhases = (
+				F77A3D28197B84770000DAA1 /* Sources */,
+				F77A3D29197B84770000DAA1 /* Frameworks */,
+				F77A3D2A197B84770000DAA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnzoSparks7;
+			productName = EnzoSparks7;
+			productReference = F77A3D2C197B84770000DAA1 /* EnzoSparks7.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F77A3D41197B84770000DAA1 /* EnzoSparks7Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F77A3D4F197B84770000DAA1 /* Build configuration list for PBXNativeTarget "EnzoSparks7Tests" */;
+			buildPhases = (
+				F77A3D3E197B84770000DAA1 /* Sources */,
+				F77A3D3F197B84770000DAA1 /* Frameworks */,
+				F77A3D40197B84770000DAA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F77A3D44197B84770000DAA1 /* PBXTargetDependency */,
+			);
+			name = EnzoSparks7Tests;
+			productName = EnzoSparks7Tests;
+			productReference = F77A3D42197B84770000DAA1 /* EnzoSparks7Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F77A3D24197B84770000DAA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Enio Ohmaye";
+				TargetAttributes = {
+					F77A3D2B197B84770000DAA1 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					F77A3D41197B84770000DAA1 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = F77A3D2B197B84770000DAA1;
+					};
+				};
+			};
+			buildConfigurationList = F77A3D27197B84770000DAA1 /* Build configuration list for PBXProject "EnzoSparks7" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F77A3D23197B84770000DAA1;
+			productRefGroup = F77A3D2D197B84770000DAA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F77A3D2B197B84770000DAA1 /* EnzoSparks7 */,
+				F77A3D41197B84770000DAA1 /* EnzoSparks7Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F77A3D2A197B84770000DAA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77A3D3D197B84770000DAA1 /* Images.xcassets in Resources */,
+				F77A3D34197B84770000DAA1 /* GameScene.sks in Resources */,
+				F77A3D3B197B84770000DAA1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77A3D40197B84770000DAA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F77A3D28197B84770000DAA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77A3D36197B84770000DAA1 /* GameScene.swift in Sources */,
+				F77A3D38197B84770000DAA1 /* GameViewController.swift in Sources */,
+				F77A3D32197B84770000DAA1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77A3D3E197B84770000DAA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77A3D49197B84770000DAA1 /* EnzoSparks7Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F77A3D44197B84770000DAA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F77A3D2B197B84770000DAA1 /* EnzoSparks7 */;
+			targetProxy = F77A3D43197B84770000DAA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F77A3D39197B84770000DAA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F77A3D3A197B84770000DAA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F77A3D4A197B84770000DAA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		F77A3D4B197B84770000DAA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F77A3D4D197B84770000DAA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = EnzoSparks7/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F77A3D4E197B84770000DAA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = EnzoSparks7/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F77A3D50197B84770000DAA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EnzoSparks7.app/EnzoSparks7";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EnzoSparks7Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		F77A3D51197B84770000DAA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EnzoSparks7.app/EnzoSparks7";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EnzoSparks7Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F77A3D27197B84770000DAA1 /* Build configuration list for PBXProject "EnzoSparks7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77A3D4A197B84770000DAA1 /* Debug */,
+				F77A3D4B197B84770000DAA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F77A3D4C197B84770000DAA1 /* Build configuration list for PBXNativeTarget "EnzoSparks7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77A3D4D197B84770000DAA1 /* Debug */,
+				F77A3D4E197B84770000DAA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F77A3D4F197B84770000DAA1 /* Build configuration list for PBXNativeTarget "EnzoSparks7Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77A3D50197B84770000DAA1 /* Debug */,
+				F77A3D51197B84770000DAA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F77A3D24197B84770000DAA1 /* Project object */;
+}
