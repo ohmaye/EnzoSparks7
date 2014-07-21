@@ -24,6 +24,7 @@ extension SKNode {
     }
 }
 
+// Not using. Left it for doc purposes. GestureRecognizer in IB is disabled.
 extension UIView {
     func handlePanGesture( gestureRecognizer : UIPanGestureRecognizer ) {
         let location = gestureRecognizer.locationInView(self.superview)
@@ -65,6 +66,7 @@ class GameViewController: UIViewController {
     }
 
     
+    // Not using it. Left for doc purposes.
     @IBAction func handlePanGestureInMainView( gestureRecognizer : UIGestureRecognizer ) {
         let location = gestureRecognizer.locationInView(skView)
         
@@ -87,7 +89,7 @@ class GameViewController: UIViewController {
         println("Called main view pan \(location) state: " + state)
     }
     
-    
+    // Not using it.
     func createView(location : CGPoint ) -> UIView {
         let width: CGFloat = 50
         let height: CGFloat = 50

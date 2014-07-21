@@ -95,15 +95,13 @@ class GameScene: SKScene {
             
         case .Moved:
             state = "Moved"
-            if !node {
-                addEmitter(location)
-            } else {
+            if node {
                 let xDelta = abs( node!.position.x - location.x )
                 let yDelta = abs( node!.position.y - location.y )
                 if (xDelta > 3 || yDelta > 3) {
-                    node!.agitate()
+                    node!.move(location)
                 } else {
-                    node!.grow()
+                    node!.agitate()
                 }
             }
         case .Ended, .Cancelled:
@@ -122,24 +120,11 @@ class GameScene: SKScene {
         }
     }
     
-    /*
-    override func touchesBegan(touches: NSSet!, withEvent event: UIEvent!) {
-        for touch: AnyObject in touches! {
-            let location = touch.locationInNode(self)
-            //createView(location)
-            println("Began: \(location)")
-            //super.touchesBegan(touches , withEvent: event )
-        }
-        
-    }
-    */
-    
     override func touchesMoved(touches: NSSet!, withEvent event: UIEvent!) {
         for touch: AnyObject in touches! {
             let location = touch.locationInNode(self)
             handleTouch(location , touchType: .Moved)
         }
-        
     }
     
     override func touchesEnded(touches: NSSet!, withEvent event: UIEvent!) {
@@ -147,7 +132,6 @@ class GameScene: SKScene {
             let location = touch.locationInNode(self)
             handleTouch(location , touchType: .Ended)
         }
-        
     }
     
      override func touchesCancelled(touches: NSSet!, withEvent event: UIEvent!) {
