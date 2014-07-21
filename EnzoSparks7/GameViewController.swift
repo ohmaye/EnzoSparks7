@@ -63,27 +63,8 @@ class GameViewController: UIViewController {
             skView.presentScene(scene)
         }
     }
- 
-    override func touchesBegan(touches: NSSet!, withEvent event: UIEvent!) {
-        for touch: AnyObject in touches! {
-            let location = touch.locationInView(skView)
-            //createView(location)
-            println("Touched View: \(location)")
-            //super.touchesBegan(touches , withEvent: event )
-        }
 
-    }
     
-    override func touchesMoved(touches: NSSet!, withEvent event: UIEvent!) {
-        for touch: AnyObject in touches! {
-            let location = touch.locationInView(skView)
-            //createView(location)
-            println("Touches Moved: \(location)")
-            //super.touchesBegan(touches , withEvent: event )
-        }
-        
-    }
-   
     @IBAction func handlePanGestureInMainView( gestureRecognizer : UIGestureRecognizer ) {
         let location = gestureRecognizer.locationInView(skView)
         

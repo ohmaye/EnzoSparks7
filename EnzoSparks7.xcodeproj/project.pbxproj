@@ -14,6 +14,8 @@
 		F77A3D3B197B84770000DAA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F77A3D39197B84770000DAA1 /* Main.storyboard */; };
 		F77A3D3D197B84770000DAA1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F77A3D3C197B84770000DAA1 /* Images.xcassets */; };
 		F77A3D49197B84770000DAA1 /* EnzoSparks7Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77A3D48197B84770000DAA1 /* EnzoSparks7Tests.swift */; };
+		F77A3D57197D05000000DAA1 /* BokehEmitter.sks in Resources */ = {isa = PBXBuildFile; fileRef = F77A3D55197D05000000DAA1 /* BokehEmitter.sks */; };
+		F77A3D58197D05000000DAA1 /* bokeh.png in Resources */ = {isa = PBXBuildFile; fileRef = F77A3D56197D05000000DAA1 /* bokeh.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,9 @@
 		F77A3D42197B84770000DAA1 /* EnzoSparks7Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnzoSparks7Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F77A3D47197B84770000DAA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F77A3D48197B84770000DAA1 /* EnzoSparks7Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnzoSparks7Tests.swift; sourceTree = "<group>"; };
+		F77A3D53197CCDC50000DAA1 /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Playground.playground; sourceTree = "<group>"; };
+		F77A3D55197D05000000DAA1 /* BokehEmitter.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BokehEmitter.sks; sourceTree = "<group>"; };
+		F77A3D56197D05000000DAA1 /* bokeh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bokeh.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +66,7 @@
 		F77A3D23197B84770000DAA1 = {
 			isa = PBXGroup;
 			children = (
+				F77A3D54197D04C40000DAA1 /* Emitters */,
 				F77A3D2E197B84770000DAA1 /* EnzoSparks7 */,
 				F77A3D45197B84770000DAA1 /* EnzoSparks7Tests */,
 				F77A3D2D197B84770000DAA1 /* Products */,
@@ -86,6 +92,7 @@
 				F77A3D39197B84770000DAA1 /* Main.storyboard */,
 				F77A3D3C197B84770000DAA1 /* Images.xcassets */,
 				F77A3D2F197B84770000DAA1 /* Supporting Files */,
+				F77A3D53197CCDC50000DAA1 /* Playground.playground */,
 			);
 			path = EnzoSparks7;
 			sourceTree = "<group>";
@@ -113,6 +120,15 @@
 				F77A3D47197B84770000DAA1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F77A3D54197D04C40000DAA1 /* Emitters */ = {
+			isa = PBXGroup;
+			children = (
+				F77A3D55197D05000000DAA1 /* BokehEmitter.sks */,
+				F77A3D56197D05000000DAA1 /* bokeh.png */,
+			);
+			name = Emitters;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,8 +212,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F77A3D58197D05000000DAA1 /* bokeh.png in Resources */,
 				F77A3D3D197B84770000DAA1 /* Images.xcassets in Resources */,
 				F77A3D34197B84770000DAA1 /* GameScene.sks in Resources */,
+				F77A3D57197D05000000DAA1 /* BokehEmitter.sks in Resources */,
 				F77A3D3B197B84770000DAA1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
